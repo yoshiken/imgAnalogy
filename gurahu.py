@@ -11,6 +11,5 @@ for line in open('hogehoge', 'r'):
     x.append(line)
     y.append(c)
     c += 1
-#print (x)
 plt.plot(y, x)
 plt.show()
