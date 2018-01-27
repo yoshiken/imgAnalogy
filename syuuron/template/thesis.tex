@@ -1,0 +1,85 @@
+% thesis.tex -- 論文の書き方参考例
+%
+% (注意)氏名、学籍番号等を変更すること。
+%
+% (LaTeXの実行法) platex thesis.tex
+%
+%	このファイル内にある '% 'はコメント。
+%
+\documentclass[a4j,11pt]{jreport}
+\usepackage{ascmac}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{url}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{thesis-master}
+\usepackage{mylatex}
+\pagestyle{plain}
+
+% 所属研究科、専攻
+\courseofmastercs
+% 研究テーマ
+\title{類似トラフィックを用いた機械学習の初期学習にかかるコスト軽減}
+% 氏名
+\author{吉田健太}
+% 学籍番号
+\id{G2116032}
+% 指導教員
+\teacher{木下 俊之}
+% 提出日
+\date{2018}{1}{23}
+% 提出年度
+\schoolyear{20XX}
+
+% 研究室名(カバー用)
+\clab{木下}
+% 学籍番号(カバー用)
+\cid{G2116032}
+
+%% 英語要旨
+\etitle{Title in English}
+\eauthor{T~a~r~o~~K~o~u~k~a}
+\eteacher{D~a~i~j~i~r~o~~K~o~u~k~a}
+
+\begin{document}
+\makecover		% カバー
+\maketitle		% 表紙
+
+% 修士論文日本語概要
+\jabst{
+\input{00abstract.tex}	% abstract.texを読み込む
+}
+\makejabstract
+
+% 修士論文英語概要
+\eabst{
+\input{00eabstract.tex}
+}
+\makeeabstract
+
+% 目次
+\pagenumbering{roman}
+\setcounter{page}{1}
+\thispagestyle{plain}
+\tableofcontents	% 目次
+\listoffigures		% 図目次
+\listoftables		% 表目次
+%\listofprograms		% プログラム目次
+
+% 論文本文
+%   論文本文は章や節単位で，いくつかのファイルに分割したほうが編集しやすい．
+% \input{hogehoge}	% hogehoge.texを読み込む．
+% 章構成は適宜変更すること．
+\pagenumbering{arabic}
+\input{01preface}		% 第1章 はじめに
+\input{02related}		% 第2章 関連技術
+\input{03approach}	% 第3章 提案
+\input{04implement}	% 第4章 実装
+\input{05assessment}	% 第5章 評価
+\input{06conclusion}	% 第6章 おわりに
+\input{07ack}		% 謝辞
+\bibliographystyle{junsrt}
+\bibliography{mybib}
+\input{08publications}% 業績
+\input{09appendix}	% 付録
+\end{document}

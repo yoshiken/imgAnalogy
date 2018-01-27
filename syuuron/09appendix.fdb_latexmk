@@ -1,0 +1,13 @@
+# Fdb version 3
+["dvipdf"] 0 "09appendix.dvi" "09appendix.pdf" "09appendix" 0
+  "09appendix.dvi" 0 -1 0 "latex"
+  (generated)
+  "09appendix.pdf"
+["latex"] 1515458497 "09appendix.tex" "09appendix.dvi" "09appendix" 1515458498
+  "09appendix.aux" 1515458495 9 a94a2480d3289e625eea47cd1b285758 ""
+  "09appendix.tex" 1515458497 82 162d460fa76d0c7167520f715f2f7dc0 ""
+  "c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt" 1514153379 4353420 3937ceb05a96bda9c6dad9b71e4671e4 ""
+  "c:/w32tex/share/texmf-dist/web2c/texmf.cnf" 1508648580 32330 f5778cdb1b2a7b3298d246206f72bbfa ""
+  (generated)
+  "09appendix.dvi"
+  "09appendix.log"

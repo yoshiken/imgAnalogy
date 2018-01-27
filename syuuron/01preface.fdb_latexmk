@@ -1,0 +1,13 @@
+# Fdb version 3
+["dvipdf"] 1515457536 "01preface.dvi" "01preface.pdf" "01preface" 1515457537
+  "01preface.dvi" 1515457535 6156 5b4799fa1b950342cb41b55d406d3885 "latex"
+  (generated)
+  "01preface.pdf"
+["latex"] 1515455539 "01preface.tex" "01preface.dvi" "01preface" 1515457537
+  "01preface.aux" 1515451041 9 a94a2480d3289e625eea47cd1b285758 ""
+  "01preface.tex" 1515457536 3838 914e23fdafa1ea05f7647296c87ba49b ""
+  "c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt" 1514153379 4353420 3937ceb05a96bda9c6dad9b71e4671e4 ""
+  "c:/w32tex/share/texmf-dist/web2c/texmf.cnf" 1508648580 32330 f5778cdb1b2a7b3298d246206f72bbfa ""
+  (generated)
+  "01preface.dvi"
+  "01preface.log"

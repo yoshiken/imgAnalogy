@@ -1,0 +1,80 @@
+\chapter{はじめに}
+\section{はじめに}
+本テンプレートは東京工科大学大学院\cite{teu}のバイオ・情報メディア研究科
+コンピュータサイエンス専攻の修士論文用に作成されました．以下にテンプレー
+トの使い方を簡単に説明していきます．また，{\TeX}全般に関する使い方は，奥
+村先生の美文書作成入門\cite{okumura}を参考にしてください．
+
+\section{論文情報の登録}
+thesis.tex を開くと，ファイル上部に``\verb|\title{論文タイトル}|''や
+``\verb|\author{工~~科~~~太~~郎}|''など論文の情報を入力する箇所があります．
+まずは，これらの情報を自身のものに適宜変更してください．本テンプレートで
+は入力された情報から``受領書''や``ファイルのカバー''，``内表紙''，``概
+要''，``英語要旨''を作成しますので，間違えないように気をつけて入力してく
+ださい．
+
+\section{本テンプレートで用意したコマンド}
+本テンプレートでは図や表を参照するためのコマンドを用意しました．
+
+\subsection{図の例}
+図の参照には\verb|\figref{}|を用います．このコマンドは，図を参照する際に
+``図''という文字を自動的に付与します．また，1回目の参照では\textbf{太字}
+で表示し，2回目以降は通常表示します．
+
+例）本学園の校章を\figref{fig:teu}に示す．
+\begin{figure}[tb]
+ \centering
+ \includegraphics[clip, width=0.5\linewidth]{teulogo_new.eps}
+  \caption{本学園の校章}
+ \label{fig:teu}
+\end{figure}
+
+\subsection{表の例}
+表の参照には\verb|\tabref{}|を用います．このコマンドは，表を参照する際に
+``表''という文字を自動的に付与します．また，1回目の参照では\textbf{太字}
+で表示し，2回目以降は通常表示します．
+
+例）東京工科大学の学部別の学生数をまとめた表を\tabref{tab:teu}に示す．
+\begin{table}[tb]
+ \begin{center}
+  \caption{学部別の人数（2009年5月1日現在）} \label{tab:teu}
+  \begin{tabular}{l|c|c|c}\hline\hline
+   学部 & 男子（名） & 女子（名） & 合計（名）\\\hline
+   メディア学部 & 1618 & 553 & 2151\\
+   応用生物学部 & 1081 & 417 & 1498\\
+   コンピュータサイエンス学部 & 2046 & 146 & 2192\\ \hline
+  \end{tabular}
+ \end{center}
+\end{table}
+
+\subsection{式の例}
+式の参照には\verb|\eqref{}|を用います．このコマンドは，式を参照する際に
+``式''という文字を自動的に付与します．また，1回目の参照では\textbf{太字}
+で表示し，2回目以降は通常表示します．
+
+例）オイラーの公式を\eqref{eq:euler}に示す．
+\begin{equation}
+ e^{i\theta} = \cos\theta + i \sin\theta\label{eq:euler}
+\end{equation}
+
+\subsection{プログラムの例}
+プログラムの参照には\verb|\pgref{}|を用います．このコマンドは，プログラム
+を参照する際に``プログラム''という文字を自動的に付与します．また，1回目の
+参照では\textbf{太字} で表示し，2回目以降は通常表示します．
+
+例）プログラムの表示の方法には2種類あります．1つは，外部に保存したファイル
+を読み込んで表示する方法です．もう１つは，直接プログラムを記述する方法で
+す．
+
+``Hello World''を表示するCのプログラムを\pgref{pg:helloc}に示す．
+\lstinputlisting[caption=Hello World, label=pg:helloc,
+language=c]{hello.c}
+
+``Hello Java''を表示するJavaのプログラムを\pgref{pg:hellojava}に示す．
+\begin{lstlisting}[caption=Hello Java, label=pg:hellojava,language=java]
+ public class HelloJava {
+     public static void main(String[] args) {
+         System.out.println("Hello Java");
+     }
+ }
+\end{lstlisting}

@@ -1,0 +1,13 @@
+# Fdb version 3
+["dvipdf"] 1515459307 "02related.dvi" "02related.pdf" "02related" 1515459309
+  "02related.dvi" 1515459306 876 ae32cb999b9ef27828d7c63b476abc2b "latex"
+  (generated)
+  "02related.pdf"
+["latex"] 1515459306 "02related.tex" "02related.dvi" "02related" 1515459309
+  "02related.aux" 1515455205 9 a94a2480d3289e625eea47cd1b285758 ""
+  "02related.tex" 1515459309 1985 68eade16e4a76a7ad50af01c045fb694 ""
+  "c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt" 1514153379 4353420 3937ceb05a96bda9c6dad9b71e4671e4 ""
+  "c:/w32tex/share/texmf-dist/web2c/texmf.cnf" 1508648580 32330 f5778cdb1b2a7b3298d246206f72bbfa ""
+  (generated)
+  "02related.dvi"
+  "02related.log"
