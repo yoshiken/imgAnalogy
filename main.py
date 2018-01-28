@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import os
+import sys
 
 
 def imgurl():
@@ -39,8 +40,9 @@ def detectorcall():
 
     return detector 
 
+args = sys.argv
 
-img1 = cv2.imread('./imgdataset/obj2__00.png',0)
+img1 = cv2.imread(args[1],0)
 #img2 = cv2.imread('./imgdataset/obj3__28.png',0)
 file =imgurl()
 detector = detectorcall()
@@ -63,7 +65,7 @@ for i in file:
             ret += m.distance
             if m.distance < match_param*n.distance:
                 good.append([m])
-        print(i, ret/c)
+        print(i + "," + str(ret/c))
         #img3 = cv2.drawMatchesKnn(img1,kp1,img2,kp2,good, None,flags=2)
 
 #後処理
