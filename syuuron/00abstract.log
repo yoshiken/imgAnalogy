@@ -1,12 +1,12 @@
-This is e-pTeX, Version 3.14159265-p3.7.2-170924-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.12.25)  9 JAN 2018 07:34
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2018.1.17)  28 JAN 2018 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./00abstract.tex
+**00abstract.tex
 (./00abstract.tex
-pLaTeX2e <2017/10/28>+3 (based on LaTeX2e <2017-04-15>)
-Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
+pLaTeX2e <2017/10/28u01>+3 (based on LaTeX2e <2017-04-15>)
+Babel <3.16> and hyphenation patterns for 84 language(s) loaded.
 
 ./00abstract.tex:2: LaTeX Error: Missing \begin{document}.
 
@@ -14,24 +14,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 Œ»
-      sIntrusionDet tionSystem (IDS)‚É‚ÍƒAƒmƒ}ƒŠŒ^‚ÆƒVƒOƒlƒ`ƒƒŒ^‚ª‘¶İ‚µ‚Ä...
+l.2 è¿‘
+       å¹´é›»å­è¨ˆç®—æ©Ÿã®å‡¦ç†èƒ½åŠ›å‘ä¸Šã«ã‚ˆã‚Šã€ã‚·ã‚¹ãƒ†ãƒ ã®å¤§...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
 ! Emergency stop.
-<*> ./00abstract.tex
-                    
+<*> 00abstract.tex
+                  
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 4 strings out of 493629
- 56 string characters out of 6150198
- 54916 words of memory out of 5000000
- 3700 multiletter control sequences out of 15000+600000
- 7511 words of font info for 31 fonts, out of 8000000 for 9000
+ 4 strings out of 493634
+ 54 string characters out of 6148874
+ 55209 words of memory out of 5000000
+ 3711 multiletter control sequences out of 15000+600000
+ 5975 words of font info for 31 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 5i,0n,4p,143b,14s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 5i,1n,4p,400b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

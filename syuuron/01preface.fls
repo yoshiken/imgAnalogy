@@ -1,5 +1,7 @@
-PWD C:/Users/yskn/Documents/GitHub/syuuron
-INPUT c:/w32tex/share/texmf-dist/web2c/texmf.cnf
-INPUT c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt
-INPUT ./01preface.tex
+PWD /Users/yskn/Downloads/syuuron-master
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-var/web2c/euptex/uplatex.fmt
+INPUT 01preface.tex
 OUTPUT 01preface.log

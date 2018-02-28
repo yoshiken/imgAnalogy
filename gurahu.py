@@ -11,5 +11,8 @@ for line in open('hogehoge', 'r'):
     x.append(line)
     y.append(c)
     c += 1
+plt.xlabel('使用データ')
+plt.ylabel('類似度')
+plt.yticks( [0, 100, 200, 300, 400, 500] )
 plt.plot(y, x)
 plt.show()

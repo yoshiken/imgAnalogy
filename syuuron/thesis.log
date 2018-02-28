@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2018.1.17)  27 JAN 2018 23:24
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2018.1.17)  28 JAN 2018 18:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -313,23 +313,23 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 1.
-)
+ [1
+
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [1
-
-] (./thesis.lof)
+ [2] (./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [2
+ [3
 
 ] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [3
+ [4
 
 ] (./01preface.tex
 第1章
@@ -341,39 +341,39 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 1.
-[1
+) (./02related.tex [1
 
-]) (./02related.tex [2]
+]
 第2章
-) (./03approach.tex [3
-
-] [4]
-第3章
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 3.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 3.
+(Font)              scaled to size 11.54663pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 3.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 3.
-) (./04implement.tex [5
+(Font)              scaled to size 11.54663pt on input line 5.
+) (./03approach.tex [2
+
+]
+第3章
+) (./04implement.tex [3
 
 ]
 第4章
-) (./05assessment.tex [6
+) (./05assessment.tex [4
 
 ]
 第5章
-) (./06conclusion.tex [7
+) (./06conclusion.tex [5
 
 ]
 第6章
-) (./07ack.tex [8
+) (./07ack.tex [6
 
 ]
 謝辞
-) (./thesis.bbl [9]
+) (./thesis.bbl [7]
 参考文献
 
 ./thesis.bbl:3: LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -387,20 +387,20 @@ l.3 \end{thebibliography}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (./09appendix.tex [10
+) (./09appendix.tex [8
 
 ]
 付録A
-) [11
+) [9
 
 ] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
  3066 strings out of 493634
  40553 string characters out of 6148874
- 111121 words of memory out of 5000000
+ 112091 words of memory out of 5000000
  6623 multiletter control sequences out of 15000+600000
  14952 words of font info for 72 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 33i,9n,34p,598b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,9n,34p,411b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.dvi (18 pages, 24336 bytes).
+Output written on thesis.dvi (17 pages, 17704 bytes).

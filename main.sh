@@ -1,14 +1,18 @@
 #!/bin/sh
 
 files="./imgdataset/*"
-for filepath in $files; do
-    echo $filepath
+
+if [ ! -e $2 ] ; then
+        mkdir $2
+fi
+
+for f in $files; do
+    echo $f
     SECONDS=0
-    python main.py $filepath > Filename_Analogy
-    fname="${filepath%.*}"
+    python $1 $f > Filename_Analogy
+    fname="${f%.*}"
     fname="${fname#*/*/}"
-    sort Filename_Analogy > ./res/$fname
+    sort Filename_Analogy > ./$2/$fname
     time=$SECONDS
     echo $time
 done
-#cat Filename_Analogy_sorted | cut -d' www' -f2 > Analogy_sorted

@@ -121,9 +121,9 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT 02related.tex
 INPUT 02related.tex
-INPUT 03approach.tex
-INPUT 03approach.tex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT 03approach.tex
+INPUT 03approach.tex
 INPUT 04implement.tex
 INPUT 04implement.tex
 INPUT 05assessment.tex
