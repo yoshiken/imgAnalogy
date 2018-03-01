@@ -43,7 +43,6 @@ def detectorcall():
 args = sys.argv
 
 img1 = cv2.imread(args[1],0)
-#img2 = cv2.imread('./imgdataset/obj3__28.png',0)
 file =imgurl()
 detector = detectorcall()
 
@@ -67,9 +66,3 @@ for i in file:
                 good.append([m])
         print(i + "," + str(ret/c))
         #img3 = cv2.drawMatchesKnn(img1,kp1,img2,kp2,good, None,flags=2)
-
-#後処理
-#cv2.imwrite("shift_result.png", img3)
-#cv2.imshow("shit_result",img3)
-#cv2.waitKey(0)
-#print(type(matches))
