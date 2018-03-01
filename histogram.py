@@ -16,9 +16,8 @@ def compare_by_hist():
     TARGET_FILE = args[1]
     for i in file:
         if not i == '.DS_Store':
-	        COMPARING_FILE = 'imgdataset/' + i
+	        COMPARING_FILE = './imgdataset/' + i
 	        IMG_SIZE = (200, 200)
-
 	        #比較するイメージファイルを読み込み、ヒストグラムを計算
 	        target_img_path = TARGET_FILE
 	        target_img = cv2.imread(target_img_path)
