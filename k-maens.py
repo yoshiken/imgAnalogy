@@ -10,7 +10,6 @@ count = 0
 
 
 for f in file:
-    #print(dir + f)
     datas[count] = np.loadtxt(dir + f)
     filename[count] = f
     count += 1
